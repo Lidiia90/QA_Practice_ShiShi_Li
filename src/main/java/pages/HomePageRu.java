@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+
 import static helpers.PropertiesReader.getProperty;
-import static java.sql.DriverManager.getDriver;
 
 public class HomePageRu extends BasePage{
 

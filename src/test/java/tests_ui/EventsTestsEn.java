@@ -1,9 +1,8 @@
 package tests_ui;
 
 import config.ApplicationManager;
-import enums.HeaderMenuItemsEn;
+import helpers.enums.HeaderMenuItemsEn;
 import org.testng.annotations.Test;
-import pages.BasePage;
 import pages.EventsPageEn;
 import pages.HomePageEn;
 

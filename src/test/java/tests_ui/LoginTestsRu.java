@@ -14,6 +14,7 @@ public class LoginTestsRu extends ApplicationManager {
             .email(getProperty("data.properties", "email"))
             .password(getProperty("data.properties", "password"))
             .build();
+
     @Test
     public void startPositiveTest(){
         HomePageRu homePageRu = new HomePageRu(getDriver());
